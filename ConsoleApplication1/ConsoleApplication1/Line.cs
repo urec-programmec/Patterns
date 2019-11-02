@@ -7,6 +7,10 @@ namespace ConsoleApplication1
 {    
     class Line : ILine
     {
+        public delegate void isChanged();
+
+        public event isChanged changed;
+
         string body = "";
         string endLeft = "";
         string endRight = "";
@@ -21,11 +25,13 @@ namespace ConsoleApplication1
         public void changeLeft(EndOfLines newEnd)
         {
             this.endLeft = newEnd.L();
+            changed();
         }
 
         public void changeRight(EndOfLines newEnd)
         {
-            this.endLeft = newEnd.R();
+            this.endRight = newEnd.R();
+            changed();
         }
 
         public string Draw()
