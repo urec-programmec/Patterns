@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
+using t = System.Text;
 
 namespace ConsoleApplication1
-{    
+{
     class Line : ILine
     {
-        public delegate void isChanged();
+        public delegate void isChanged(object zzzzzz, Test aaaaa);
 
         public event isChanged changed;
-
+        
         string body = "";
         string endLeft = "";
         string endRight = "";
@@ -25,18 +25,26 @@ namespace ConsoleApplication1
         public void changeLeft(EndOfLines newEnd)
         {
             this.endLeft = newEnd.L();
-            changed();
+            changed?.Invoke(this, new Test(3));
         }
 
         public void changeRight(EndOfLines newEnd)
         {
             this.endRight = newEnd.R();
-            changed();
+            if (changed != null) changed(this, new Test(2));
         }
 
         public string Draw()
         {
             return endLeft + body + endRight;
+        }
+    }
+    public class Test : EventArgs
+    {
+        public int X { get; set; }
+        public Test(int x)
+        {
+            X = x;
         }
     }
 }

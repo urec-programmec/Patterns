@@ -82,7 +82,7 @@ namespace ConsoleApplication1
                     {
                         Lenght = rnd.Next(2, 20);
                         line = new Line(Lenght, ends[rnd.Next(0, 3)], ends[rnd.Next(0, 3)]);
-                        line.changed += Show;
+                        line.changed += Line_changed1;
                         t = line.Draw();
 
                         if (temp.Length + t.Length + 1 < rows)
@@ -104,6 +104,16 @@ namespace ConsoleApplication1
 
             Console.WriteLine(result);
         }
+
+        private static void Line_changed1(object zzzzzz, Test aaaaa)
+        {
+            //Line L = zzzzzz as Line;
+            //Console.WriteLine(L.Draw());
+            //Console.WriteLine(aaaaa.X);
+            Show();
+        }
+
+
 
         static void Main(string[] args)
         {
