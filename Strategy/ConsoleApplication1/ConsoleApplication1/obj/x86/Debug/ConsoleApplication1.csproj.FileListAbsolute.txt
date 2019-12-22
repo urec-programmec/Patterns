@@ -1,0 +1,12 @@
+d:\_Универсам\ТРПО\Strategy\Patterns\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+d:\_Универсам\ТРПО\Strategy\Patterns\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+d:\_Универсам\ТРПО\Strategy\Patterns\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.csprojAssemblyReference.cache
+d:\_Универсам\ТРПО\Strategy\Patterns\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.csproj.CoreCompileInputs.cache
+d:\_Универсам\ТРПО\Strategy\Patterns\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+d:\_Универсам\ТРПО\Strategy\Patterns\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+D:\_Универсам\ТРПО\Patterns\Strategy\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\_Универсам\ТРПО\Patterns\Strategy\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\_Универсам\ТРПО\Patterns\Strategy\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.csprojAssemblyReference.cache
+D:\_Универсам\ТРПО\Patterns\Strategy\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.csproj.CoreCompileInputs.cache
+D:\_Универсам\ТРПО\Patterns\Strategy\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+D:\_Универсам\ТРПО\Patterns\Strategy\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
